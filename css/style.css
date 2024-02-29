@@ -1,21 +1,132 @@
-*{
-	box-sizing: border-box;
+body {
+  font-family: 'Arial', sans-serif;
 }
-body{
-	margin: auto;
-	padding: 2em;
+
+/* Estilos para el header */
+.header {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
 }
-h1 {
-	color: white;
+
+/* Estilos para el menú */
+.menu {
+  background-color: #f8f9fa;
+  padding: 20px;
 }
-.row{
-	padding: 1rem;
+
+.menu1 {
+  background-color: #e0e0e0;
+  padding: 20px;
 }
-.barra{
-	background-color: #FF266E;
+
+/* Estilos para la caja de Últimos Proyectos dentro del menú */
+.nested-box {
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: #fff;
 }
-.cajaBorde{
-	border-style: solid;
-	border-color: #FF266E;
-	height: 30vh;
+
+/* Estilos para el contenido */
+.content {
+  background-color: #ffebee;
+  padding: 20px;
+  margin-top: 20px;
 }
+
+/* Estilos para la caja de Mi Historia dentro del contenido */
+.content .nested-box {
+  background-color: #f5f5f5;
+}
+
+/* Estilos para el contenido2 */
+.content2 {
+  text-align: center;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+/* Estilos específicos para fondo1, fondo2, fondo3 y fondo4 */
+.fondo1 {
+  background-color: #e57373;
+}
+
+.fondo2 {
+  background-color: #81c784;
+}
+
+.fondo3 {
+  background-color: #64b5f6;
+}
+
+.fondo4 {
+  background-color: #ffd54f;
+}
+
+/* Estilos para las imágenes */
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.header {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+  }
+  
+  /* Estilos para el menú */
+  .menu {
+	background-color: #f8f9fa;
+  }
+  
+  .menu1 {
+	background-color: #e0e0e0;
+  }
+  
+  /* Estilos para la caja de Últimos Proyectos dentro del menú */
+  .nested-box {
+	border: 1px solid #ccc;
+	background-color: #fff;
+  }
+  
+  /* Estilos para el contenido */
+  .content {
+	background-color: #ffebee;
+  }
+  
+  /* Estilos para la caja de Mi Historia dentro del contenido */
+  .content .nested-box {
+	background-color: #f5f5f5;
+  }
+  
+  /* Estilos para el contenido2 */
+  .content2 {
+	text-align: center;
+  }
+  
+  /* Estilos específicos para fondo1, fondo2, fondo3 y fondo4 */
+  .fondo1 {
+	background-color: #e57373;
+  }
+  
+  .fondo2 {
+	background-color: #81c784;
+  }
+  
+  .fondo3 {
+	background-color: #64b5f6;
+  }
+  
+  .fondo4 {
+	background-color: #ffd54f;
+  }
+  
+  /* Estilos para las imágenes */
+  .image {
+	max-width: 100%;
+	height: auto;
+  }
